@@ -2,7 +2,7 @@ FROM centos:latest
 MAINTAINER Christophe Augello <christophe@augello.be>
 
 #Variables
-ENV YOUTRACK_VERSION=6.5.17015
+ENV YOUTRACK_VERSION=6.5.17057
 ENV YOUTRACK_HOME /opt/youtrack
 
 #Create path/user/group
