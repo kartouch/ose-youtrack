@@ -21,7 +21,7 @@ RUN chown -R youtrack.0 $YOUTRACK_HOME && chmod -R g+rwx $YOUTRACK_HOME
 EXPOSE 8080
 
 WORKDIR $YOUTRACK_HOME
-VOLUME ["/opt/youtrack"]
+VOLUME ["/opt/youtrack/data", "/opt/youtrack/backup"]
 USER 55
 CMD ["java", \
      "-Xmx1g", \
